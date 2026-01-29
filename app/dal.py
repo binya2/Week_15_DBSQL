@@ -105,7 +105,7 @@ def get_customer_quantity_per_order():
     return results
 
 
-def get_customers_payments_by_lastname_pattern(pattern: str = "son"):
+def get_customers_payments_by_lastname_pattern():
     """8. Return customers and payments for last names matching pattern."""
     connection = get_db_connection()
     cursor = connection.cursor(dictionary=True)
