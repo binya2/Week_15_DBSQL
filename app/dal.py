@@ -1,4 +1,4 @@
-from app.db import get_db_connection
+from db import get_db_connection
 
 
 def get_customers_by_credit_limit_range():
